@@ -8,16 +8,14 @@ class Subscribe extends React.Component{
     email:null,
     events:false,
     discounts:false,
-    news_updates:false
+    news_updates:false,
   }
-
   addSub=(event)=>{
     event.preventDefault()
     console.log(this.state.first_name)
     console.log(this.state.last_name)    
     console.log(this.state.email)
   }
-  
   addFirstName=(event)=>{
     let first_name=event.target.value
     this.setState({first_name})
@@ -30,6 +28,9 @@ class Subscribe extends React.Component{
     let email=event.target.value
     this.setState({email})
   }
+  addEvents=(event)=>{
+    console.log(event.target.checked)
+  }
 
   render(){
     return(
@@ -38,24 +39,25 @@ class Subscribe extends React.Component{
           <Link to="/">Home </Link>          
           <h1>Subscribe to our newsletter</h1>
           <form onSubmit={this.addSub}>
-            <input
+            <label>First Name</label><input
               className="input_box"
               type="text"  
-              placeholder="First Name"
               onChange={this.addFirstName}
             />
-            <input
+            <label>Last Name</label><input
               className="input_box"
               type="text"  
-              placeholder="Last Name"
               onChange={this.addLastName}
             />
-            <input
+            <label>Email</label><input
               className="input_box"
               type="text"  
-              placeholder="Email"
               onChange={this.addEmail}
             />
+            <label><input type="checkbox" onClick={this.addEvents}/>Events</label>
+            <input type="checkbox" className="input_box" name="discount"/><label>Discounts</label>
+            <input type="checkbox" className="input_box" name="news_updates"/><label>Parks news & updates</label>
+
             <button type="submit">Subscribe</button>
           </form>          
         </div>
@@ -63,9 +65,5 @@ class Subscribe extends React.Component{
     )
   }
 }
-<<<<<<< HEAD
-export default Subscribe;
-=======
 
-export default Subscribe
->>>>>>> 7ac37ba7f516268d902ac560165f949bc41bc1bd
+export default Subscribe;

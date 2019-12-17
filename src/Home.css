@@ -28,7 +28,9 @@ body {
 .bottom img {
 	display: inline-block;
 	height: 500px;
-	width: 350px;
+	width: 400px;
+	padding: 35px;
+
 }
 
 
@@ -48,5 +50,11 @@ body {
 
 .Middle {
 	text-align: center;
+	font-size: 23px; 
+	font-family: Roboto;
+	line-height: 22px;
+	line-height: 82%;
+	text-align: center;
+	letter-spacing: -0.02em; 
 }
 

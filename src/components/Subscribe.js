@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route, Link, Switch} from 'react-router-dom'
 
-class Subscription extends React.Component{
+class Subscribe extends React.Component{
   state={
     first_name:null,
     last_name:null,
@@ -62,3 +62,4 @@ class Subscription extends React.Component{
     )
   }
 }
+export default Subscribe;

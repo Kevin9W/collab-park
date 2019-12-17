@@ -2,6 +2,8 @@ import React from 'react';
 import {Route, Link, Switch} from 'react-router-dom'
 import Home from './components/Home'
 import Subscribe from './components/Subscribe'
+import './App.css'
+
 
 class App extends React.Component {
   render(){
@@ -15,7 +17,7 @@ class App extends React.Component {
         <div className="main">
           <Switch>
             <Route exact path="/" component={Home}/>
-            <Route path="/subscribe" component={Subscription}/>
+            <Route path="/subscribe" component={Subscribe}/>
           </Switch>
         </div>
       </div>

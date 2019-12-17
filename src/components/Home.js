@@ -15,7 +15,7 @@ class Home extends React.Component{
           to receive discounts and updates!
         </p>
         </div>
-        <div class="bottom">
+        <div className="bottom">
           <h2>New Attractions!</h2>
           <img className="ride_pic1" src="../images/roller-coaster.jpg" alt="Ride 1"/>
           <img className="ride_pic2" src="../images/AmusementRoundup.jpg" alt="Ride 2"/>        

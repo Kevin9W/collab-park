@@ -10,18 +10,18 @@ class App extends React.Component {
     return (
       <div className="App">
         <div id="grid1">
-          <div class="nav-left">
+          <div className="nav-left">
             <img className="toprow1" src="./images/topleft.png" alt="Adventrue Park"/>
           </div>
-          <div class="nav-right">
+          <div className="nav-right">
             <img className="toprow2" src="./images/topright.png" alt="Adventrue Park"/>
           </div>
         </div>  
         <div id="grid2">
-          <div class="nav-left">
+          <div className="nav-left">
             <img className="botrow1" src="./images/botleft.png" alt="Adventrue Park"/>
           </div>
-          <div class="nav-right">
+          <div className="nav-right">
             <img className="botrow2" src="./images/botright.png" alt="Adventrue Park"/>
           </div>
         </div>

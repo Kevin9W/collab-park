@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-
+import '../Home.css'
 class Subscribe extends React.Component{
   state={
     first_name:null,
@@ -41,8 +41,10 @@ class Subscribe extends React.Component{
   render(){
     let options=['Monthly','Quarterly','Annually']
     let defaultOption=options[0]
+    let background="../images/ferriswheel.jpg"
     return(
-      <div className="sub_main">
+      <div className="sub_main"  style={{background}}>
+      
         <div className="sub_form">
           <Link to="/">Home </Link>          
           <h1>Subscribe to our newsletter</h1>

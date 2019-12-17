@@ -27,10 +27,17 @@ body {
 
 .bottom img {
 	display: inline-block;
+	height: 250px;
+	width: 220px;
+	padding: 0px 20px 20px;
+	object-fit: cover;
+
+}
+@media (min-width: 700px) { 
+	.bottom img {
 	height: 500px;
 	width: 400px;
-	padding: 35px;
-
+	}
 }
 
 
@@ -40,8 +47,7 @@ body {
 	font-style: italic;
 	font-weight: bold;
 	font-size: 25px;
-	line-height: 30px;
-	line-height: 100%;
+	
 	text-align: center;
 	letter-spacing: -0.02em;
 	vertical-align: top;
@@ -57,4 +63,30 @@ body {
 	text-align: center;
 	letter-spacing: -0.02em; 
 }
+
+.Button {
+	background-color: #DEEFFF;
+	border-radius: 4px;
+	font-size: 17px;
+}
+
+#grid1 {
+	display:grid; 
+	grid-template-columns: 50% 50%;
+	background-color: #1A1861;
+}
+
+.nav-right {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+#grid2 {
+	display:grid; 
+	grid-template-columns: 50% 50%;
+	background-color: #CADAEC;
+}
+
+
+
 

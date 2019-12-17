@@ -7,18 +7,18 @@ class Home extends React.Component{
       <div id="content">
         <div className="Home">
           <h1>Welcome to Adventure Park</h1>
-          <img className="big_pic" src="../images/coaster1.png" alt="Adventrue Park"/>
+          <img className="big_pic" src="../images/KentuckyKingdom.png" alt="Adventrue Park"/>
         </div>
         <div className="Middle">
-        <button><Link to='/subscribe'>Sign up for our newsletter</Link></button> 
+        <button className="Button"><Link to='/subscribe'>Sign up for our newsletter</Link></button> 
         <p>
           to receive discounts and updates!
         </p>
         </div>
         <div class="bottom">
           <h2>New Attractions!</h2>
-          <img className="ride_pic1" src="../images/coaster2.png" alt="Ride 1"/>
-          <img className="ride_pic2" src="../images/coaster3.png" alt="Ride 2"/>        
+          <img className="ride_pic1" src="../images/roller-coaster.jpg" alt="Ride 1"/>
+          <img className="ride_pic2" src="../images/AmusementRoundup.jpg" alt="Ride 2"/>        
         </div>
       </div>
     ) 

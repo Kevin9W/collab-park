@@ -9,9 +9,22 @@ class App extends React.Component {
   render(){
     return (
       <div className="App">
-        <nav>
-          <h1><img className="header" src="./images/header.png" alt="Adventrue Park"/></h1> 
-        </nav>
+        <div id="grid1">
+          <div class="nav-left">
+            <img className="toprow1" src="./images/topleft.png" alt="Adventrue Park"/>
+          </div>
+          <div class="nav-right">
+            <img className="toprow2" src="./images/topright.png" alt="Adventrue Park"/>
+          </div>
+        </div>  
+        <div id="grid2">
+          <div class="nav-left">
+            <img className="botrow1" src="./images/botleft.png" alt="Adventrue Park"/>
+          </div>
+          <div class="nav-right">
+            <img className="botrow2" src="./images/botright.png" alt="Adventrue Park"/>
+          </div>
+        </div>
         <div className="main">
           <Switch>
             <Route exact path="/" component={Home}/>
@@ -24,3 +37,4 @@ class App extends React.Component {
 }
 
 export default App;
+

@@ -65,5 +65,4 @@ class Subscribe extends React.Component{
     )
   }
 }
-
 export default Subscribe;

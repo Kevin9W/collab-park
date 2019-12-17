@@ -4,20 +4,21 @@ import {Link} from 'react-router-dom'
 class Home extends React.Component{
   render(){
     return(
-      <div className="Home">
-        <div>
-          <div></div>
+      <div id="content">
+        <div className="Home">
           <h1>Welcome to Adventure Park</h1>
-          <img className="big_pic" src="href" alt="Adventrue Park"/>
+          <img className="big_pic" src="../images/coaster1.png" alt="Adventrue Park"/>
         </div>
-        <button><Link to='/subscribe'>Sign Up for out newsletter</Link></button> 
+        <div className="Middle">
+        <button><Link to='/subscribe'>Sign up for our newsletter</Link></button> 
         <p>
-          to recieve exclusive discounts and updates!
+          to receive discounts and updates!
         </p>
-        <div>
+        </div>
+        <div class="bottom">
           <h2>New Attractions!</h2>
-          <img className="ride_pic1" src="href" alt="Ride 1"/>
-          <img className="ride_pic2" src="href" alt="Ride 2"/>        
+          <img className="ride_pic1" src="../images/coaster2.png" alt="Ride 1"/>
+          <img className="ride_pic2" src="../images/coaster3.png" alt="Ride 2"/>        
         </div>
       </div>
     ) 

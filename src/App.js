@@ -2,7 +2,7 @@ import React from 'react';
 import {Route, Switch} from 'react-router-dom'
 import Home from './components/Home'
 import Subscribe from './components/Subscribe'
-import './App.css'
+import './Home.css'
 
 
 class App extends React.Component {
@@ -10,7 +10,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <nav>
-          <h1>Adventure Park</h1> 
+          <h1><img className="header" src="./images/header.png" alt="Adventrue Park"/></h1> 
         </nav>
         <div className="main">
           <Switch>

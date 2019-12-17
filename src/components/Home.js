@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, Link, Switch} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 class Home extends React.Component{
   render(){
@@ -10,7 +10,10 @@ class Home extends React.Component{
           <h1>Welcome to Adventure Park</h1>
           <img className="big_pic" src="href" alt="Adventrue Park"/>
         </div>
-        <p>Sign Up for out newsletter to recieve exclusive discounts and updates!</p>
+        <button><Link to='/subscribe'>Sign Up for out newsletter</Link></button> 
+        <p>
+          to recieve exclusive discounts and updates!
+        </p>
         <div>
           <h2>New Attractions!</h2>
           <img className="ride_pic1" src="href" alt="Ride 1"/>

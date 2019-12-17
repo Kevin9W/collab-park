@@ -1,7 +1,7 @@
 import React from 'react';
-import {Route, Link, Switch} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
-class Subscription extends React.Component{
+class Subscribe extends React.Component{
   state={
     first_name:null,
     last_name:null,
@@ -35,6 +35,7 @@ class Subscription extends React.Component{
     return(
       <div className="sub_main">
         <div className="sub_form">
+          <Link to="/">Home </Link>          
           <h1>Subscribe to our newsletter</h1>
           <form onSubmit={this.addSub}>
             <input
@@ -62,3 +63,5 @@ class Subscription extends React.Component{
     )
   }
 }
+
+export default Subscribe

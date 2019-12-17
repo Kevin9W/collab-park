@@ -9,13 +9,11 @@ class App extends React.Component {
       <div className="App">
         <nav>
           <h1>Adventure Park</h1> 
-          <Link to="/">Home </Link>
-          <Link to="/subscribe">Sign Up</Link>
         </nav>
         <div className="main">
           <Switch>
             <Route exact path="/" component={Home}/>
-            <Route path="/subscribe" component={Subscription}/>
+            <Route path="/subscribe" component={Subscribe}/>
           </Switch>
         </div>
       </div>

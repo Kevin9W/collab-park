@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, Link, Switch} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 class Subscribe extends React.Component{
   state={
@@ -35,6 +35,7 @@ class Subscribe extends React.Component{
     return(
       <div className="sub_main">
         <div className="sub_form">
+          <Link to="/">Home </Link>          
           <h1>Subscribe to our newsletter</h1>
           <form onSubmit={this.addSub}>
             <input
@@ -62,4 +63,9 @@ class Subscribe extends React.Component{
     )
   }
 }
+<<<<<<< HEAD
 export default Subscribe;
+=======
+
+export default Subscribe
+>>>>>>> 7ac37ba7f516268d902ac560165f949bc41bc1bd

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+body {
+	background-color: white;
+}
+
+#content{
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+
+.bottom {
+	background-color: #1A1861;
+	color: white;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 37px;
+	line-height: 43px;
+	line-height: 100%;
+	letter-spacing: -0.02em;
+	font-family: Roboto;
+	
+}
+
+.bottom img {
+	display: inline-block;
+	height: 500px;
+	width: 350px;
+}
+
+
+.Home {
+	color: red;
+	font-family: Roboto;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 30px;
+	line-height: 100%;
+	text-align: center;
+	letter-spacing: -0.02em;
+	vertical-align: top;
+}
+
+
+.Middle {
+	text-align: center;
+}
+

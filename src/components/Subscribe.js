@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-
+import '../Home.css'
 class Subscribe extends React.Component{
   state={
     first_name:null,
@@ -57,6 +57,7 @@ class Subscribe extends React.Component{
   render(){
     return(
       <div className="sub_main">
+      
         <div className="sub_form">
           <h1>Subscribe to our newsletter</h1>
           <form onSubmit={this.addSub}>
